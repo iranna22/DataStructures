@@ -1,4 +1,4 @@
-package com.iranna.array;
+package com.iranna.mnc.arrays;
 
 import java.util.*;
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArraySortedCheck {
 	public static void main(String[] args) {
 		// Define an array to check
-		int[] array = { 1, 2, 2, 4, 5 };
+		int[] array = { 1, 2, 2, 4,6, 5 };
 
 		// 1. Using Built-in Methods
 		System.out.println("Using Built-in Methods:");

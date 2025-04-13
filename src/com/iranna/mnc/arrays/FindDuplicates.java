@@ -1,4 +1,4 @@
-package com.iranna.array;
+package com.iranna.mnc.arrays;
 
 
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 public class FindDuplicates {
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1, 4, 2, 5, 3};
+        int[] arr = {1, 2, 3, 5,1,2,3};
 
         // Using built-in methods (HashSet)
         findDuplicatesUsingHashSet(arr);

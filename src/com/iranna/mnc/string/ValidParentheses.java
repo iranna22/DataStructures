@@ -1,4 +1,4 @@
-package com.iranna.strings;
+package com.iranna.mnc.string;
 //LEETCODE
 
 import java.util.Stack;

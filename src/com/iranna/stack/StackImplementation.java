@@ -55,6 +55,11 @@ class Stack {
     public int size() {
         return top + 1;
     }
+    void print(){ 
+        for(int i = top;i>-1;i--){ 
+        System.out.print(" "+ arr[i]); 
+        } 
+}
 }
 
 // Driver code to test the stack
@@ -65,8 +70,8 @@ public class StackImplementation {
         stack.push(10);
         stack.push(20);
         stack.push(30);
-        stack.push(10);
-        stack.push(20);
+        stack.push(40);
+        stack.push(50);
         
 
         System.out.println("Top element is: " + stack.peek());
@@ -76,7 +81,9 @@ public class StackImplementation {
         System.out.println("After popping, top element is: " + stack.peek());
 
         stack.pop();
-        stack.pop();
-        stack.pop(); // Trying to pop from an empty stack
+      //  stack.pop();
+      //  stack.pop(); // Trying to pop from an empty stack
+        
+        stack.print();
     }
 }
